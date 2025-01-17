@@ -194,3 +194,23 @@ main > section {
 .fact_dec {
   max-width: 540px;
 }
+
+/* responsive media quary */
+
+@media screen and (max-width: 576px) {
+  .facts_container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    justify-items: center;
+  }
+  .fact_card {
+    width: 190px;
+    height: 190px;
+  }
+}
+
+/* Our Sponspors styles */
+.sponsor_info {
+  width: 540px;
+  margin: 50px auto;
+}
