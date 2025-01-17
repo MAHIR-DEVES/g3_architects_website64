@@ -183,6 +183,49 @@ main > section {
   margin-bottom: 0px;
 }
 
+#Experience_badge {
+  padding: 45px 42px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-left: -100px;
+  margin-top: -100px;
+}
+#experience_year {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.feature_architect img {
+  width: 100%;
+}
+
+/* feature section responsiv */
+
+@media screen and (max-width: 576px) {
+  .features {
+    flex-direction: column;
+  }
+  #Experience_badge {
+    margin-top: 20px;
+    margin-left: 85px;
+  }
+  #experience_year {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+}
+
+/* medium device responsive */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .features {
+    flex-direction: column;
+  }
+  #Experience_badge {
+    margin-top: 20px;
+    margin-left: 270px;
+  }
+}
+
 /* some facts related styles */
 
 .facts_container {
@@ -226,8 +269,8 @@ main > section {
     justify-items: center;
   }
   .fact_card {
-    width: 195px;
-    height: 195px;
+    width: 190px;
+    height: 190px;
   }
 }
 
@@ -263,7 +306,7 @@ main > section {
   }
 
   .sponsor_info {
-    width: 390px;
+    width: 380px;
   }
 }
 
@@ -279,4 +322,17 @@ main > section {
     max-height: 150px;
     gap: 30px;
   }
+}
+
+/* footer styls */
+footer {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.footer_text {
+  padding: 38px 0px;
+  background: #fff4e7;
+  text-align: center;
+  margin-top: 130px;
 }
